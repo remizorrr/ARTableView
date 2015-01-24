@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E073B6BD1A73E72B00FD9676 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E073B6BC1A73E72B00FD9676 /* ColorView.m */; };
+		E073B6C01A73E74700FD9676 /* AutoresizeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E073B6BF1A73E74700FD9676 /* AutoresizeTextField.m */; };
+		E094BA991A6353340084059F /* ARTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E094BA981A6353340084059F /* ARTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E094BAB91A63535B0084059F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BAB81A63535B0084059F /* AppDelegate.m */; };
+		E094BABB1A63535B0084059F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BABA1A63535B0084059F /* main.m */; };
+		E094BABD1A63535B0084059F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E094BABC1A63535B0084059F /* Images.xcassets */; };
+		E094BAC01A63535B0084059F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E094BABE1A63535B0084059F /* MainMenu.xib */; };
+		E094BAD81A6355930084059F /* ARAutoresizeTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E094BAD61A6355930084059F /* ARAutoresizeTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E094BAD91A6355930084059F /* ARAutoresizeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BAD71A6355930084059F /* ARAutoresizeTableView.m */; };
+		E094BADA1A6355930084059F /* ARAutoresizeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BAD71A6355930084059F /* ARAutoresizeTableView.m */; };
+		E094BADD1A6355E20084059F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BADC1A6355E20084059F /* TableViewController.m */; };
+		E094BAE01A635C770084059F /* ARAutoresizeTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = E094BADE1A635C770084059F /* ARAutoresizeTableCellView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E094BAE11A635C770084059F /* ARAutoresizeTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BADF1A635C770084059F /* ARAutoresizeTableCellView.m */; };
+		E094BAE21A635C770084059F /* ARAutoresizeTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BADF1A635C770084059F /* ARAutoresizeTableCellView.m */; };
+		E094BAE51A63601C0084059F /* ARAutoresizeTableCellContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E094BAE31A63601C0084059F /* ARAutoresizeTableCellContentView.h */; };
+		E094BAE61A63601C0084059F /* ARAutoresizeTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BAE41A63601C0084059F /* ARAutoresizeTableCellContentView.m */; };
+		E094BAE71A63601C0084059F /* ARAutoresizeTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E094BAE41A63601C0084059F /* ARAutoresizeTableCellContentView.m */; };
+		E0DBE5721A64C69100943261 /* ARDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DBE5701A64C69100943261 /* ARDelegateProxy.h */; };
+		E0DBE5731A64C69100943261 /* ARDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DBE5711A64C69100943261 /* ARDelegateProxy.m */; };
+		E0DBE5781A64D92100943261 /* ARDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DBE5711A64C69100943261 /* ARDelegateProxy.m */; };
+		E0DBE57B1A64E4BF00943261 /* EditableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DBE57A1A64E4BF00943261 /* EditableTextCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E073B6BB1A73E72B00FD9676 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		E073B6BC1A73E72B00FD9676 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		E073B6BE1A73E74700FD9676 /* AutoresizeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoresizeTextField.h; sourceTree = "<group>"; };
+		E073B6BF1A73E74700FD9676 /* AutoresizeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoresizeTextField.m; sourceTree = "<group>"; };
+		E094BA931A6353340084059F /* ARTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E094BA971A6353340084059F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E094BA981A6353340084059F /* ARTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTableView.h; sourceTree = "<group>"; };
+		E094BAB31A63535B0084059F /* ARTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E094BAB61A63535B0084059F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E094BAB71A63535B0084059F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E094BAB81A63535B0084059F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E094BABA1A63535B0084059F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E094BABC1A63535B0084059F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E094BABF1A63535B0084059F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E094BAD61A6355930084059F /* ARAutoresizeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAutoresizeTableView.h; sourceTree = "<group>"; };
+		E094BAD71A6355930084059F /* ARAutoresizeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAutoresizeTableView.m; sourceTree = "<group>"; };
+		E094BADB1A6355E20084059F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ARTableViewDemo/TableViewController.h; sourceTree = SOURCE_ROOT; };
+		E094BADC1A6355E20084059F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ARTableViewDemo/TableViewController.m; sourceTree = SOURCE_ROOT; };
+		E094BADE1A635C770084059F /* ARAutoresizeTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAutoresizeTableCellView.h; sourceTree = "<group>"; };
+		E094BADF1A635C770084059F /* ARAutoresizeTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAutoresizeTableCellView.m; sourceTree = "<group>"; };
+		E094BAE31A63601C0084059F /* ARAutoresizeTableCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAutoresizeTableCellContentView.h; sourceTree = "<group>"; };
+		E094BAE41A63601C0084059F /* ARAutoresizeTableCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAutoresizeTableCellContentView.m; sourceTree = "<group>"; };
+		E0DBE5701A64C69100943261 /* ARDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDelegateProxy.h; sourceTree = "<group>"; };
+		E0DBE5711A64C69100943261 /* ARDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDelegateProxy.m; sourceTree = "<group>"; };
+		E0DBE5791A64E4BF00943261 /* EditableTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableTextCell.h; sourceTree = "<group>"; };
+		E0DBE57A1A64E4BF00943261 /* EditableTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableTextCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E094BA8F1A6353340084059F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094BAB01A63535B0084059F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E094BA891A6353340084059F = {
+			isa = PBXGroup;
+			children = (
+				E094BA951A6353340084059F /* ARTableView */,
+				E094BAB41A63535B0084059F /* ARTableViewDemo */,
+				E094BA941A6353340084059F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E094BA941A6353340084059F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E094BA931A6353340084059F /* ARTableView.framework */,
+				E094BAB31A63535B0084059F /* ARTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E094BA951A6353340084059F /* ARTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E094BA981A6353340084059F /* ARTableView.h */,
+				E094BA961A6353340084059F /* Supporting Files */,
+				E0DBE5701A64C69100943261 /* ARDelegateProxy.h */,
+				E0DBE5711A64C69100943261 /* ARDelegateProxy.m */,
+				E094BAD61A6355930084059F /* ARAutoresizeTableView.h */,
+				E094BAD71A6355930084059F /* ARAutoresizeTableView.m */,
+				E094BADE1A635C770084059F /* ARAutoresizeTableCellView.h */,
+				E094BADF1A635C770084059F /* ARAutoresizeTableCellView.m */,
+				E094BAE31A63601C0084059F /* ARAutoresizeTableCellContentView.h */,
+				E094BAE41A63601C0084059F /* ARAutoresizeTableCellContentView.m */,
+			);
+			path = ARTableView;
+			sourceTree = "<group>";
+		};
+		E094BA961A6353340084059F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E094BA971A6353340084059F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E094BAB41A63535B0084059F /* ARTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E073B6BB1A73E72B00FD9676 /* ColorView.h */,
+				E073B6BC1A73E72B00FD9676 /* ColorView.m */,
+				E073B6BE1A73E74700FD9676 /* AutoresizeTextField.h */,
+				E073B6BF1A73E74700FD9676 /* AutoresizeTextField.m */,
+				E0DBE5791A64E4BF00943261 /* EditableTextCell.h */,
+				E0DBE57A1A64E4BF00943261 /* EditableTextCell.m */,
+				E094BADB1A6355E20084059F /* TableViewController.h */,
+				E094BADC1A6355E20084059F /* TableViewController.m */,
+				E094BAB71A63535B0084059F /* AppDelegate.h */,
+				E094BAB81A63535B0084059F /* AppDelegate.m */,
+				E094BABC1A63535B0084059F /* Images.xcassets */,
+				E094BABE1A63535B0084059F /* MainMenu.xib */,
+				E094BAB51A63535B0084059F /* Supporting Files */,
+			);
+			path = ARTableViewDemo;
+			sourceTree = "<group>";
+		};
+		E094BAB51A63535B0084059F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E094BAB61A63535B0084059F /* Info.plist */,
+				E094BABA1A63535B0084059F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E094BA901A6353340084059F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DBE5721A64C69100943261 /* ARDelegateProxy.h in Headers */,
+				E094BAE51A63601C0084059F /* ARAutoresizeTableCellContentView.h in Headers */,
+				E094BAD81A6355930084059F /* ARAutoresizeTableView.h in Headers */,
+				E094BA991A6353340084059F /* ARTableView.h in Headers */,
+				E094BAE01A635C770084059F /* ARAutoresizeTableCellView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E094BA921A6353340084059F /* ARTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E094BAA91A6353350084059F /* Build configuration list for PBXNativeTarget "ARTableView" */;
+			buildPhases = (
+				E094BA8E1A6353340084059F /* Sources */,
+				E094BA8F1A6353340084059F /* Frameworks */,
+				E094BA901A6353340084059F /* Headers */,
+				E094BA911A6353340084059F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARTableView;
+			productName = ARTableView;
+			productReference = E094BA931A6353340084059F /* ARTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E094BAB21A63535B0084059F /* ARTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E094BACD1A63535B0084059F /* Build configuration list for PBXNativeTarget "ARTableViewDemo" */;
+			buildPhases = (
+				E094BAAF1A63535B0084059F /* Sources */,
+				E094BAB01A63535B0084059F /* Frameworks */,
+				E094BAB11A63535B0084059F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARTableViewDemo;
+			productName = ARTableViewDemo;
+			productReference = E094BAB31A63535B0084059F /* ARTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E094BA8A1A6353340084059F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = froggyproggy;
+				TargetAttributes = {
+					E094BA921A6353340084059F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E094BAB21A63535B0084059F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = E094BA8D1A6353340084059F /* Build configuration list for PBXProject "ARTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E094BA891A6353340084059F;
+			productRefGroup = E094BA941A6353340084059F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E094BA921A6353340084059F /* ARTableView */,
+				E094BAB21A63535B0084059F /* ARTableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E094BA911A6353340084059F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094BAB11A63535B0084059F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E094BABD1A63535B0084059F /* Images.xcassets in Resources */,
+				E094BAC01A63535B0084059F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E094BA8E1A6353340084059F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DBE5731A64C69100943261 /* ARDelegateProxy.m in Sources */,
+				E094BAD91A6355930084059F /* ARAutoresizeTableView.m in Sources */,
+				E094BAE11A635C770084059F /* ARAutoresizeTableCellView.m in Sources */,
+				E094BAE61A63601C0084059F /* ARAutoresizeTableCellContentView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094BAAF1A63535B0084059F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E073B6C01A73E74700FD9676 /* AutoresizeTextField.m in Sources */,
+				E0DBE57B1A64E4BF00943261 /* EditableTextCell.m in Sources */,
+				E094BABB1A63535B0084059F /* main.m in Sources */,
+				E094BAB91A63535B0084059F /* AppDelegate.m in Sources */,
+				E094BADD1A6355E20084059F /* TableViewController.m in Sources */,
+				E094BADA1A6355930084059F /* ARAutoresizeTableView.m in Sources */,
+				E073B6BD1A73E72B00FD9676 /* ColorView.m in Sources */,
+				E094BAE71A63601C0084059F /* ARAutoresizeTableCellContentView.m in Sources */,
+				E094BAE21A635C770084059F /* ARAutoresizeTableCellView.m in Sources */,
+				E0DBE5781A64D92100943261 /* ARDelegateProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E094BABE1A63535B0084059F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E094BABF1A63535B0084059F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E094BAA71A6353350084059F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E094BAA81A6353350084059F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E094BAAA1A6353350084059F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ARTableView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E094BAAB1A6353350084059F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ARTableView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E094BACE1A63535B0084059F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E094BACF1A63535B0084059F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ARTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E094BA8D1A6353340084059F /* Build configuration list for PBXProject "ARTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E094BAA71A6353350084059F /* Debug */,
+				E094BAA81A6353350084059F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E094BAA91A6353350084059F /* Build configuration list for PBXNativeTarget "ARTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E094BAAA1A6353350084059F /* Debug */,
+				E094BAAB1A6353350084059F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E094BACD1A63535B0084059F /* Build configuration list for PBXNativeTarget "ARTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E094BACE1A63535B0084059F /* Debug */,
+				E094BACF1A63535B0084059F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E094BA8A1A6353340084059F /* Project object */;
+}
