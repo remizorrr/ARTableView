@@ -15,7 +15,7 @@
     NSMutableArray* heights;
 }
 
-@property (strong) ARDelegateProxy* deleagteProxy;
+@property (strong) ARDelegateProxy* delegateProxy;
 @property (strong) ARDelegateProxy* dataSourceProxy;
 
 @end
@@ -24,21 +24,21 @@
 
 - (void)setDelegate:(id<NSTableViewDelegate>)delegate
 {
-    self.deleagteProxy   = [ARDelegateProxy new];
-    self.deleagteProxy->_breakingDelegate     = self;
-    self.deleagteProxy->_originalDelegate = delegate;
-    [super setDelegate:self.deleagteProxy];
+    self.delegateProxy   = [ARDelegateProxy new];
+    self.delegateProxy->_breakingDelegate = self;
+    self.delegateProxy->_originalDelegate = delegate;
+    [super setDelegate:self.delegateProxy];
 }
 
 - (void)setDataSource:(id<NSTableViewDataSource>)aSource
 {
     self.dataSourceProxy = [ARDelegateProxy new];
-    self.dataSourceProxy->_breakingDelegate   = self;
+    self.dataSourceProxy->_breakingDelegate = self;
     self.dataSourceProxy->_originalDelegate = aSource;
     [super setDataSource:self.dataSourceProxy];
 }
 
-- (NSView*) tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+- (NSView*)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
 {
     ARAutoresizeTableCellView* cellView = (ARAutoresizeTableCellView*)
                 [self.dataSourceProxy->_originalDelegate tableView:tableView

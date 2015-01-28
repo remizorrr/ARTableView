@@ -4,10 +4,10 @@ NSTableView that autoresize it's cells with autolayout.
 ![demo](ARTableView.gif)
 
 ## Usage
-Set your tableview class to ARAutoresizeTableView, and your tablecellview class to ARAutoresizeTableCellView,
-Setup a proper autolayout constraints.
+Set your tableView class to ARAutoresizeTableView and your tableCellView class to ARAutoresizeTableCellView, then
+create a set of autolayout constraints.
 
-In your tableViewDelegate implement the following method
+In your tableViewDelegate implement the following method:
 
 ```obj-c
 - (CGFloat) tableView:(NSTableView *)tableView  heightOfRow:(NSInteger)row

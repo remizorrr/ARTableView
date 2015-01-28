@@ -50,7 +50,7 @@
     self.innerContent = content;
 }
 
-- (void) setInnerContent:(ARAutoresizeTableCellContentView *)innerContent
+- (void)setInnerContent:(ARAutoresizeTableCellContentView *)innerContent
 {
     _innerContent = innerContent;
     [self addSubview:_innerContent];
@@ -84,12 +84,12 @@
     return self;
 }
 
-- (void) awakeFromNib
+- (void)awakeFromNib
 {
     [self innerInit];
 }
 
-- (void) layout
+- (void)layout
 {
     [super layout];
     [self.delegate cell:self shouldChangeToHeight:self.innerContent.frame.size.height];
